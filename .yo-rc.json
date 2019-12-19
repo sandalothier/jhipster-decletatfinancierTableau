@@ -1,0 +1,48 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "decletatfinancierTableau",
+    "packageName": "com.fisc.decletatfinanciertableau",
+    "packageFolder": "com/fisc/decletatfinanciertableau",
+    "serverPort": 8094,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": false,
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.5.1",
+    "jwtSecretKey": "NjU4MWQ0ZDZhM2RlNjY5OTIyODQ5ZDgzZDY0MjlhOGNhNWU5YWJiYWJlOTFhZjI3NzZhYWFjMzMyYmRiMDdhNjNlMDQ1ZDAzOTIwM2QxNWZkMzM3NjRkMTZiYTBkMmQ1MTkyMDAyZTViMTg4ZTk2Y2NjMzU5NjFmM2IwZGYyMWQ=",
+    "embeddableLaunchScript": false,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "sandalothier",
+  "repository-name": "jhipster-decletatfinancierTableau"
+}
